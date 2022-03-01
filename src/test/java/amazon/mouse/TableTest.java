@@ -18,7 +18,7 @@ public class TableTest
     public void Table()
     {
      		
-    			    System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");  
+    			    System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");  
     	            WebDriver driver=new ChromeDriver();  
     			    driver.get("https://www.w3schools.com/html/html_tables.asp");
     			    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
